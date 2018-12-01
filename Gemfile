@@ -12,6 +12,7 @@ end
 group :production do
   gem 'pg'
 end
+gem 'carrierwave'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
